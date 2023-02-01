@@ -5,11 +5,13 @@
     border: 0;
     box-sizing: border-box;
 }
+
 header, nav {
     width: 100%;
     position: fixed;
 
 }
+
 section {
     padding-top: 60px;
 }
