@@ -18,7 +18,8 @@
             class="d-inline-block align-text-top"> GeoPortal - Marco Zero</a>
 
         <form class="d-flex">
-          <button class="btn btn">
+          <button class="btn btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#lista-de-camadas-legenda"
+            aria-controls="offcanvasRight" title="Lista de Camadas e Legenda">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-stack"
               viewBox="0 0 16 16">
               <path
@@ -28,7 +29,21 @@
             </svg>
           </button>
 
-          <button class="btn btn">
+          <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="lista-de-camadas-legenda"
+            aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 id="offcanvasRightLabel">Lista de Camadas e Legenda</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              Aqui vai ter as listas de camadas e legendas
+            </div>
+          </div>
+
+
+          <button class="btn btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#aplicacoes"
+            aria-controls="offcanvasRight" title="Aplicações">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
               class="bi bi-file-earmark" viewBox="0 0 16 16">
               <path
@@ -36,7 +51,22 @@
             </svg>
           </button>
 
-          <button class="btn btn">
+
+          <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="aplicacoes"
+            aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 id="offcanvasRightLabel">Aplicações</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              Aqui vai ter as aplicações
+            </div>
+          </div>
+
+
+          <button class="btn btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#funcionalidades"
+            aria-controls="offcanvasRight" title="Funcionalidades">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear"
               viewBox="0 0 16 16">
               <path
@@ -46,7 +76,21 @@
             </svg>
           </button>
 
-          <button class="btn btn">
+          <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="funcionalidades"
+            aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 id="offcanvasRightLabel">Funcionalidades</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              Aqui vai ter as funcionalidades
+            </div>
+          </div>
+
+
+          <button class="btn btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#galerias"
+            aria-controls="offcanvasRight" title="Galerias">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
               class="bi bi-grid-3x3-gap-fill" viewBox="0 0 16 16">
               <path
@@ -54,7 +98,21 @@
             </svg>
           </button>
 
-          <button class="btn btn">
+          <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="galerias"
+            aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 id="offcanvasRightLabel">Galerias</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              Aqui vai ter as galerias de mapa base
+            </div>
+          </div>
+
+
+          <button class="btn btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#login"
+            aria-controls="offcanvasRight" title="Login">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
               class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
               <path fill-rule="evenodd"
@@ -63,6 +121,21 @@
                 d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
             </svg>
           </button>
+
+
+          <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="login"
+            aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 id="offcanvasRightLabel">Login</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              Aqui vai ter a tela de Login
+              Registrando com cpf ou e-mail e senha
+            </div>
+          </div>
+
 
         </form>
       </div>
